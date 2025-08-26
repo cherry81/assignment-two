@@ -1,0 +1,178 @@
+img {
+  max-width: 100%;
+}
+/* header section */
+
+.logo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #004aac;
+}
+.nav-menu ul {
+  display: flex;
+  margin-right: 100px;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+.header-button {
+  margin-right: 50px;
+  display: flex;
+  gap: 20px;
+}
+.header-button button {
+  font-size: 15px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: rgb(252, 149, 101);
+}
+
+/* footer section */
+.footer-section {
+  height: 235px;
+  background-color: #004aac;
+  border-radius: 5px;
+}
+.footer-one {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 150px;
+  width: 80%;
+  margin: auto;
+}
+
+.logo-title {
+  display: flex;
+  gap: 20px;
+}
+.logo-title img {
+  margin-left: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+}
+.logo-title h2 {
+  width: 250px;
+  color: white;
+}
+.social-media {
+  color: white;
+}
+
+.footer-section iframe {
+  height: 180px;
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.footer-section .copyright-section {
+  text-align: center;
+  color: white;
+}
+
+/* Home Page */
+.home {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.banner-image img {
+  height: auto;
+}
+.banner-image {
+  display: flex;
+  justify-content: center;
+}
+
+.introduction {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.our-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Doctors Page */
+.doc-description {
+  text-align: center;
+}
+.doctors-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+/* gallery page */
+.gallery-images {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  text-align: center;
+}
+
+.gallery-images img {
+  width: auto;
+  height: 300px;
+}
+
+.images h2 {
+  text-align: center;
+}
+
+.health-awareness {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.health-awareness h2 {
+  margin: 0;
+}
+
+/* appointment page */
+.appointment-section {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.form-items legend {
+  font-weight: bold;
+  padding: 5px;
+  border: 2px solid rgb(255, 138, 138);
+  background-color: rgb(204, 243, 230);
+}
+
+.form-items fieldset {
+  padding: 50px;
+  margin-top: 5px;
+}
+
+.button {
+  display: flex;
+  gap: 20px;
+}
+.button input {
+  padding: 5px;
+  background-color: beige;
+  border-radius: 5px;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/assets/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="/assets/logo.png" alt="school-logo" />
+        <h1>Lumos Academy</h1>
+      </div>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-button">
+        <button class="login">Login</button>
+        <button class="">Blocks</button>
+      </div>
+    </header>
+    <main>
+      <section class="contact">
+        <h2>Empowering Learners, Shaping Leaders</h2>
+        <form method="post" class="form-items">
+          <fieldset class="fieldset-one">
+            <legend>Admission Enquiry</legend>
+            <div class="student-name">
+              <label for="full-name"> Name :</label>
+              <input
+                type="text"
+                name="name"
+                id="full-name"
+                placeholder="Enter Your Full Name"
+                required
+              />
+            </div>
+            <br />
+            <div class="grades">
+              <label for="grade-title">Grade:</label>
+              <select id="grade-select" name="grade" required>
+                <option value="">-- Select --</option>
+                <option value="one">Grade One</option>
+                <option value="two">Grade Two</option>
+                <option value="three">Grade Three</option>
+                <option value="four">Grade Four</option>
+                <option value="five">Grade Five</option>
+                <option value="six">Grade Six</option>
+                <option value="seven">Grade Seven</option>
+                <option value="eight">Grade Eight</option>
+                <option value="nine">Grade Nine</option>
+                <option value="ten">Grade Ten</option>
+                <option value="eleven">Grade Eleven</option>
+                <option value="twelve">Grade Twelve</option>
+              </select>
+            </div>
+            <br />
+            <fieldset>
+                <legend>Parent Info</legend>
+                <div class="parents-detail">
+                <div class="parent-name">
+                    <label for="parent-name">Name:</label><br />
+                    <input type="text" id="parent-name" name="parent-name" placeholder="Enter Your Full Name" />
+                </div>
+                <br />
+                <div class="parent-contact">
+                    <label for="parent-contact">Contact Number:</label><br />
+                    <input
+                    type="tel"
+                    id="parent-contact"
+                    name="parent-contact"
+                    placeholder="10-digit number"
+                    required
+                    />
+                </div>
+                <br />
+                <div class="parent-email">
+                    <label for="parent-email">Email Address:</label><br />
+                    <input
+                    type="email"
+                    id="parent-email"
+                    name="parent-email"
+                    placeholder="Enter Email Address"
+                    required
+                    />
+                </div>
+            </fieldset>
+            <br />
+            </div>
+            <div class="button">
+              <input type="submit" value="Submit" />
+              <input type="reset" value="Reset" />
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer class="footer-section">
+      <section class="footer-one">
+        <div class="logo-title">
+          <img src="/assets/logo.png" alt="company-logo" />
+          <h2>Lumos Academy</h2>
+        </div>
+        <div class="iframe">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.2108532335674!2d85.38458941200389!3d27.679877276098996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b68b15aa15d%3A0xba48e3080dc58485!2sBhulankhel%20Youth%20Club!5e0!3m2!1sne!2snp!4v1755853743596!5m2!1sne!2snp"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="social-media">
+          <h2>Follow Us</h2>
+          <div class="content">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+          </div>
+        </div>
+      </section>
+      <section class="copyright-section">
+        <p>Copyright &copy; 2025 Lumos Academy. Powered By Lumos Academy</p>
+      </section>
+    </footer>
+  </body>
+</html>

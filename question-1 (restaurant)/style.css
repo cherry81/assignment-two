@@ -1,0 +1,147 @@
+img {
+  max-width: 100%;
+}
+/* header section */
+.logo img {
+  margin-left: 30px;
+  width: 70px;
+  height: 70px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  background-color: rgb(172, 182, 168);
+}
+.nav-menu ul {
+  display: flex;
+  margin-right: 100px;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+}
+
+/* footer section */
+.footer-section {
+  height: 235px;
+  background-color: #acb6a8;
+  border-radius: 5px;
+}
+.footer-one {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-title {
+  display: flex;
+  gap: 30px;
+}
+.logo-title img {
+  margin-left: 30px;
+  width: 70px;
+  height: 70px;
+}
+
+.footer-section iframe {
+  height: 180px;
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.footer-section .copyright-section {
+  text-align: center;
+}
+
+/* Home Page */
+.home {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Menu Page */
+.menu {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.dishes {
+  width: 80%;
+  background-color: aliceblue;
+  margin: auto;
+}
+.dishes h3 {
+  text-align: center;
+}
+.dish-table {
+  width: 30%;
+}
+.dish-table {
+  width: 30%;
+}
+.dish-table h4 {
+  text-align: center;
+}
+.dish-table img {
+  height: 80px;
+  width: 105px;
+}
+.veg-nonveg {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* gallery page*/
+.gallery {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.gallery-images {
+  width: 80%;
+  background-color: aliceblue;
+  margin: auto;
+}
+
+.gallery-images h2 {
+  text-align: center;
+}
+.gallery-images .images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.gallery-iframe {
+  display: grid;
+  justify-content: center;
+}
+.gallery-iframe iframe {
+  border-radius: 10px;
+}
+
+/* contact page */
+.heading {
+  text-align: center;
+}
+.form-items {
+  display: grid;
+  justify-content: center;
+  margin: 24px;
+}
+.button {
+  display: flex;
+  gap: 20px;
+}
+.button input {
+  padding: 5px;
+  background-color: beige;
+  border-radius: 5px;
+}

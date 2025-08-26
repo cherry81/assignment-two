@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/assets/icons.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="/assets/logo.png" alt="company-logo" />
+      </div>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="books.html">Books</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contact">
+        <div class="heading">
+          <h1>Contact Form</h1>
+        </div>
+        <form method="post" class="form-items">
+          <fieldset>
+            <legend>Order Book</legend>
+            <div class="name">
+              <label for="full-name"> Name :</label>
+              <input
+                type="text"
+                name="name"
+                id="full-name"
+                placeholder="Enter Your Full Name"
+                required
+              />
+            </div>
+            <br />
+            <div class="email">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Your Email"
+              />
+            </div>
+            <br />
+            <div class="book-title">
+              <label for="title"> Book Title :</label>
+              <select name="title" id="title">
+                <option value="the-midnight-library">
+                  The Midnight Library
+                </option>
+                <option value="educated">Educated</option>
+                <option value="where-the-crawdads-sing">
+                  Where the Crawdads Sing
+                </option>
+                <option value="atomic-habits">Atomic Habits</option>
+                <option value="the-alchemist">The Alchemist</option>
+                <option value="circe">Circe</option>
+                <option value="sapiens">
+                  Sapiens: A Brief History of Humankind
+                </option>
+                <option value="the-house-in-the-cerulean-sea">
+                  The House in the Cerulean Sea
+                </option>
+                <option value="it-ends-with-us">It Ends With Us</option>
+                <option value="a-man-called-ove">A Man Called Ove</option>
+              </select>
+            </div>
+            <br />
+            <div class="payment-mode">
+              <label for="message">Payment Mode :</label>
+              <input
+                type="radio"
+                name="payment"
+                id="khalti"
+                value="khalti"
+                required
+              /><label for="khalti">Khalti</label>
+              <input
+                type="radio"
+                name="payment"
+                id="esewa"
+                value="esewa"
+                required
+              /><label for="esewa">Esewa</label>
+              <input
+                type="radio"
+                name="payment"
+                id="card"
+                value="card"
+                required
+              /><label for="card">Card</label>
+              <input
+                type="radio"
+                name="payment"
+                id="paypal"
+                value="paypal"
+                required
+              /><label for="paypal">Paypal</label>
+            </div>
+            <br />
+            <div class="button">
+              <input type="submit" value="Submit" />
+              <input type="reset" value="Reset" />
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer class="footer-section">
+      <section class="footer-one">
+        <div class="logo-title">
+          <img src="/assets/logo.png" alt="company-logo" />
+          <h2>Chapter & Chill</h2>
+        </div>
+        <div class="iframe">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.2108532335674!2d85.38458941200389!3d27.679877276098996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b68b15aa15d%3A0xba48e3080dc58485!2sBhulankhel%20Youth%20Club!5e0!3m2!1sne!2snp!4v1755853743596!5m2!1sne!2snp"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <section class="copyright-section">
+        <p>
+          Copyright &copy; 2025 Chapter &amp; Chill. Powered By Chapter &amp;
+          Chill
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>

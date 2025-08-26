@@ -1,0 +1,169 @@
+img {
+  max-width: 100%;
+}
+/* header section */
+.logo {
+  display: flex;
+  gap: 20px;
+}
+.logo img {
+  margin: auto;
+  margin-left: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  background-color: rgb(139, 232, 255);
+}
+.nav-menu ul {
+  display: flex;
+  margin-right: 100px;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+}
+
+/* footer section */
+.footer-section {
+  height: 235px;
+  background-color: rgb(139, 232, 255);
+  border-radius: 5px;
+}
+.footer-one {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 300px;
+  width: 80%;
+  margin: auto;
+}
+
+.logo-title {
+  display: flex;
+  gap: 30px;
+}
+.logo-title img {
+  margin-left: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+}
+
+.footer-section iframe {
+  height: 180px;
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.footer-section .copyright-section {
+  text-align: center;
+}
+
+/* Home Page */
+.home {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.banner-image img {
+  border-radius: 10px;
+}
+.destination h2 {
+  width: 80%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.destination {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.popular-destinations .content {
+  margin-bottom: 20px;
+}
+.popular-destinations ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 60px;
+}
+.popular-destinations img {
+  height: 200px;
+  width: 350px;
+}
+
+/* Destination Page */
+.pricing-table {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+table {
+  background-color: rgb(226, 240, 253);
+}
+
+/* gallery page */
+.travel-gallery {
+  text-align: center;
+}
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.gallery-images img {
+  width: 100%;
+  height: 100%;
+}
+.iframe-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.audio-guide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+/* booking page */
+.booking {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.form-items legend {
+  font-weight: bold;
+  padding: 5px;
+  border: 2px solid rgb(255, 138, 138);
+  background-color: rgb(204, 243, 230);
+}
+
+.form-items fieldset {
+  padding: 50px;
+  margin-top: 5px;
+}
+
+.button {
+  display: flex;
+  gap: 20px;
+}
+.button input {
+  padding: 5px;
+  background-color: beige;
+  border-radius: 5px;
+}

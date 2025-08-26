@@ -1,0 +1,186 @@
+img {
+  max-width: 100%;
+}
+/* header section */
+.logo {
+  display: flex;
+  gap: 20px;
+}
+.logo img {
+  margin: auto;
+  margin-left: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  background-color: rgb(179, 245, 214);
+}
+.nav-menu ul {
+  display: flex;
+  margin-right: 100px;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  font-size: 15px;
+}
+.header-button {
+  margin-right: 50px;
+  display: flex;
+  gap: 50px;
+}
+.header-button button {
+  font-size: 15px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: rgb(221, 243, 243);
+}
+
+/* footer section */
+.footer-section {
+  height: 235px;
+  background-color: rgb(179, 245, 214);
+  border-radius: 5px;
+}
+.footer-one {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 200px;
+  width: 80%;
+  margin: auto;
+}
+
+.logo-title {
+  display: flex;
+  gap: 30px;
+}
+.logo-title img {
+  margin-left: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+}
+.logo-title h2 {
+  width: 250px;
+}
+
+.footer-section iframe {
+  height: 180px;
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.footer-section .copyright-section {
+  text-align: center;
+}
+
+/* Home Page */
+.home {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.banner-image img {
+  border-radius: 10px;
+  height: auto;
+}
+.banner-image {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+/* about-us page */
+.first-container img {
+  height: 300px;
+  width: 350px;
+}
+.history .title {
+  text-align: center;
+}
+.paragraph-one {
+  margin-top: 0;
+}
+.first-container .paragraph {
+  line-height: 1.5;
+}
+.first-container {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  gap: 20px;
+}
+/* about us achivements */
+.achivements h2 {
+  text-align: center;
+}
+.grid-view {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 20px;
+}
+.global-achivements {
+  text-align: center;
+  border: 1px solid rgb(241, 174, 174);
+  padding: 10px;
+}
+
+.global-achivements img {
+  width: 400px;
+}
+
+/* about us time table  */
+.time-table {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 5px auto 20px;
+}
+
+/* gallery page */
+.slogan {
+  text-align: center;
+}
+.events-gallery {
+  text-align: center;
+}
+.events {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.events img {
+  width: 400px;
+  height: 300px;
+}
+
+.annual-function {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+/* contact page */
+.contact {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.form-items legend {
+  font-weight: bold;
+  padding: 5px;
+  border: 2px solid rgb(255, 138, 138);
+  background-color: rgb(204, 243, 230);
+}
